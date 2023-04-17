@@ -3,11 +3,11 @@
   padding: 0;
 }
 body {
-  /* background: rgb(44, 43, 43); */
+  background: rgb(44, 43, 43);
   color: white;
   font-family: "Courier New", Courier, monospace;
-  background: url(./assets/pexels-jaime-reimer-2662116.jpg) no-repeat
-    center/cover;
+  /* background: url(./assets/pexels-jaime-reimer-2662116.jpg) no-repeat
+    center/cover; */
 }
 
 .container {

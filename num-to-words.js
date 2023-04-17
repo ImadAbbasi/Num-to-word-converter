@@ -1,3 +1,6 @@
+// LINK FOR THE LIBRARY
+// https://github.com/marlun78/number-to-words
+
 /*!
  * Number-To-Words util
  * @version v1.2.4
