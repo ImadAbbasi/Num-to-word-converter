@@ -68,3 +68,15 @@ btnConvet.addEventListener("click", () => {
 
 //   //   converted.innerHTML = num.value;
 // };
+
+const copyText = document.querySelector(".copy-text");
+copyText.querySelector("a").addEventListener("click", function () {
+  let input = copyText.querySelector("h2.value");
+  h2.select();
+  document.execCommand("copy");
+  copyText.classList.add("active");
+  window.getSelection().removeAllRanges();
+  setTimeout(function () {
+    copyText.classList.remove("active");
+  }, 2000);
+});
